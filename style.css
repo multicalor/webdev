@@ -29,15 +29,18 @@ ul {
     /* border: 3px solid yellow; */
 }
 .btn {
-    display: flex;
-    flex-direction: row;
+    display: flexbox;
+    justify-content: center;
     padding: 15px 47px;
 
-    position: absolute;
+    /* position: absolute; */
     width: 184px;
     height: 46px;
-    left: 707px;
+    /* left: 707px; */
     top: 406px;
+
+
+ 
     
     
     background: #00AFDB;
@@ -136,9 +139,9 @@ button:focus {
     max-width: 800px;
     height: 210px;
     margin-bottom: 2px;
-    margin-right: auto; /* 1 */
-    margin-left:  auto; /* 1 */
-    /* text-align: center; */
+    margin-right: auto;
+    margin-left:  auto;
+    text-align: center;
     
     /* border: 1px solid green; */
 }

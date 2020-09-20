@@ -619,25 +619,224 @@ button:focus {
   background: #00AFDB;
 
 }
+/* Download */
+/* --------------- */
 
-/* .btn-icon-confirm {
-  position: absolute;
-  width: 19px;
-  height: 16.52px;
-  left: calc(50% - 19px/2 + 0.5px);
-  top: calc(50% - 16.52px/2 - 0px);
 
-  background: #FFFFFF;
-} */
 .download {
+  display: flex;
+  justify-content: center;
+  align-items:center;
   max-width: 1600px;
+  height: 468px;
+  width: 1600px;
+
+
 }
+
+.download-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items:center;
+  
+  height: 166px;
+  width: 475px;
+
+  margin: 0 0 60px 0;
+}
+
+.download-text-wrap {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 0 0 0;
+}
+
+.download-h4 {
+  height: 28px;
+  width: 300px;
+
+
+
+  /* h2-24-bold */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #373737;
+  margin: -33px 0px 52px 117px;
+}
+
+.download-p {
+  width: 483px;
+  height: 40px;
+
+
+  /* body-14-reg */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+
+  color: #4E4E4E;
+  margin: 0 0 0 0;
+}
+
+.download-btns-wrap {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  width: 406px;
+
+  margin: 0 0 0 0;
+}
+
+.download-btn-apple {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  width: 188px;
+}
+
+.download-btn-apple-left {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  width: 128px;
+  background-color: #00AFDB;
+}
+
+.download-btn-apple-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .07px;
+  color: #FFFFFF;
+  margin: 19px 0 0 21px;
+}
+
+.download-btn-apple-right {
+  height: 50px;
+  width: 60px;
+
+  background-color: #009CC2;
+}
+
+.download-btn-apple-logo {
+  display: flex;
+  justify-content: center;
+
+  margin: 15px -2px 0 0;
+}
+
+.download-btn-android {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  width: 188px;
+
+}
+
+.download-btn-android-left {
+  height: 50px;
+  width: 128px;
+  background-color: #00AFDB;
+}
+
+.download-btn-android-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .07px;
+  color: #FFFFFF;
+  margin: 19px 0 0 0;
+}
+
+.download-btn-android-right {
+  height: 50px;
+  width: 60px;
+
+  background-color: #009CC2;
+}
+
+.download-btn-android-logo {
+  display: flex;
+  justify-content: center;
+  
+  margin: 13px -1px 0 0;
+}
+
+/* Footer */
+/* ---------------------------- */
 
 footer {
+  display: flex;
+  justify-content: center;
+  align-items:center;
   max-width: 1600px;
-  background-image: url("./assets/img/header_bg.jpg");
+  height: 184px;
+  width: 1600px;
+  background-color: #4E4E4E;
+  border: 1px solid red;
 }
 
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 236px;
+  height: 18px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+
+
+  color: #FFFFFF;
+
+  opacity: 0.98;
+
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.footer-logo {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+.autor {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+
+  text-align: center;
+
+  color: #818181;
+
+  margin: 0 0 0 0;
+}
 
 
 /* Animation */
@@ -648,10 +847,12 @@ a {
   background-position: 0% 100%;
   background-repeat: no-repeat;
   background-size: 0% 2px;
-  transition: background-size 0.3s;
+  transition: background-size .8s;
+  color: #FFFFFF
 }
 
 a:hover {
   background-size: 100% 2px;
   font-weight: 800;
+  color: #FFFFFF
 }

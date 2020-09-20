@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
 
     <title>My life is</title>
   </head>
@@ -14,27 +17,31 @@
         <!-- Main menu -->
         <nav class="main-nav">
           <ul class="main-menu">
-            <li><a>About</a></li>
-            <li><a>Syllabus</a></li>
-            <li><span class="logo-wrap">
-              <!-- Logo -->
-              <img
-                src="./assets/img/main-logo.svg"
-                width="44px"
-                height="44px"
-                alt="image description"
-              />
-            </span >
+            <li class="menu-item-left-side"><a>About</a></li>
+            <li class="menu-item-left-side"><a>Syllabus</a></li>
+            <li>
+              <span class="logo-wrap">
+                <!-- Logo -->
+                <img
+                  src="./assets/img/main-logo.svg"
+                  width="44px"
+                  height="44px"
+                  alt="image description"
+                />
+              </span>
             </li>
-            <li><a>Projects</a></li>
-            <li><a>FAQ</a></li>
+            <li class="menu-item-right-side"><a>Projects</a></li>
+            <li class="menu-item-right-side"><a>FAQ</a></li>
           </ul>
         </nav>
         <!-- Action-->
         <div class="action-wrapper">
           <h1 class="main-slogan">your life is WebDev</h1>
-          <p>Whatever the approach to development may be, the final</p>
-          <p>program must satisfy some fundamental properties</p>
+          <div class="main-discription-wrap">
+            <p>Whatever the approach to development may be, the final</p><br>
+            program must satisfy some fundamental properties</p>
+          </div>
+
           <button class="main-action btn">
             <div class="btn-started-text">get started</div>
           </button>
@@ -43,41 +50,74 @@
           <ul>
             <li>
               <img
-              src="./assets/img/icon/mail_fff.svg"
-              width="20px"
-              height="20px"
-              alt="send e-mail"
-            />
+                src="./assets/img/icon/mail_fff.svg"
+                width="20px"
+                height="20px"
+                alt="send e-mail"
+              />
             </li>
             <li>
               <img
-              src="./assets/img/facebook_fff.svg"
-              width="20px"
-              height="20px"
-              alt="send facebook"
-            />
+                src="./assets/img/facebook_fff.svg"
+                width="20px"
+                height="20px"
+                alt="send facebook"
+              />
             </li>
             <li>
               <img
-              src="./assets/img/icon/insta_fff.svg"
-              width="20px"
-              height="20px"
-              alt="instagram"
-            />
+                src="./assets/img/icon/insta_fff.svg"
+                width="20px"
+                height="20px"
+                alt="instagram"
+              />
             </li>
-            <li>              
+            <li>
               <img
-              src="./assets/img/icon/telegram_fff.svg"
-              width="20px"
-              height="20px"
-              alt="telegram"
-            /></li>
+                src="./assets/img/icon/telegram_fff.svg"
+                width="20px"
+                height="20px"
+                alt="telegram"
+              />
+            </li>
           </ul>
         </div>
       </header>
-      <div class="your-life"></div>
+      <div class="your-life">
+        <div class="card-wrapper">
+          <div class="card">
+            <div class="second-action">
+              <div class="lozung-wrap"><h3>Rappresent your idea with<br>a smart Design</h3></div>
+              <div class="discription-wrap">
+                <p class="discription">Tasks accompanying and related to programming include:<br>
+                
+                  testing, debugging, source code maintenance, <strong>implementation of</strong><br>
+                
+                
+                  <strong>build systems</strong>, and management of derived artifacts, such as 
+                  the<br>
+                
+                machine code of computer programs.</p>
+              </div>
+
+              <button class="second-action-btn btn">
+                <div class="btn-started-text">get started</div>
+              </button>
+            </div>
+            <div class="img-wrap">
+            <img src="/assets/img/content-image-1.png" alt="">
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="our-community">
+        <div class="comunity-card">
+          <div class="comunnity-img-wrap"><img src="/assets/img/comunity-avatar.png" alt=""></div>
+        </div>
+        <div class="slider"></div>
+      </div>
       <div class="rappresent"></div>
-      <div class="our-community"></div>
+      
       <div class="implemenn"></div>
       <div class="download"></div>
       <footer></footer>

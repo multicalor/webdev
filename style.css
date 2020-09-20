@@ -456,6 +456,10 @@ button:focus {
   color: #4E4E4E;
 }
 
+/* Implement */
+
+/* ________________________________________ */
+
 .implement {
   display: flex;
   justify-content: center;
@@ -464,7 +468,7 @@ button:focus {
   width: 1600px;
   height: 842px;
 
-    border: 1px solid red;
+ 
 }
 .card-implement {
   display: flex;
@@ -515,7 +519,7 @@ button:focus {
 
 .implement-btn-started-text {
   position: static;
-  width: 86px;
+  width: 99px;
   height: 16px;
   left: calc(50% - 86px/2);
   top: calc(50% - 16px/2);
@@ -529,19 +533,102 @@ button:focus {
   align-items: center;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: .02rem;
+  letter-spacing: .01rem;
 
   color: #FFFFFF;
-
-
-  /* Inside Auto Layout */
 
   flex: none;
   order: 0;
   align-self: center;
-  margin: -2px -2px;
+  margin: -1px -3px;
+}
+/* Sign up */
+
+/* --------------------------- */
+.sign-up-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 598px;
+  
+  background-image: url("./assets/img/pexels-christina-morillo-1181675\ 1.jpg");
+}
+.sign-up-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 104px;
+  width: 406px;
+  left: 597px;
+  top: 217px;
+  border-radius: 0px;
+  /* border: 1px solid red; */
+
+  margin: 34px 0 0 100px;
+
 }
 
+.sign-up-lable {
+  width: 380px;
+  height: 28px;
+  left: 13px;
+  top: 0px;
+
+  /* h2-24-bold */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  letter-spacing: .96px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+
+  margin: -37px 66px 0 0;
+}
+
+.sign-up-input-btn {
+  
+  display: flex;
+  /* justify-content: space-between; */
+  height: 46px; 
+  margin: 28px 66px 60px 0px;
+  
+}
+
+.sign-up-form {
+  height: 46px;
+  width: 336px;
+  left: 0px;
+  top: 58px;
+  border-radius: 0px;
+  border: none;
+
+}
+
+.btn-confirm {
+  height: 48px;
+  width: 66px;
+  border: none;
+  background: #00AFDB;
+
+}
+
+/* .btn-icon-confirm {
+  position: absolute;
+  width: 19px;
+  height: 16.52px;
+  left: calc(50% - 19px/2 + 0.5px);
+  top: calc(50% - 16.52px/2 - 0px);
+
+  background: #FFFFFF;
+} */
 .download {
   max-width: 1600px;
 }

@@ -17,7 +17,7 @@ h3 {
 }
 
 p {
-	/* margin: 0 0 0 0; */
+	margin: 0 0 0 0;
 	font-family: Roboto;
 	font-style: normal;
   font-weight: normal;
@@ -75,8 +75,8 @@ button:focus {
   height: 16px;
   left: calc(50% - 90px / 2);
   top: calc(50% - 16px / 2);
-  margin-top: 19px;
-  margin-right: 2px;
+  /* margin-top: 16px; */
+  /* margin-right: 2px; */
 
   font-family: Roboto;
   font-style: normal;
@@ -92,7 +92,7 @@ button:focus {
   flex: none;
   order: 0;
   align-self: center;
-  margin: 0px 0px;
+  margin: 0px 0px 0px -2px;
 }
 
 .header {
@@ -155,22 +155,25 @@ button:focus {
 
   /* border: 1px solid green; */
 }
-.main-slogan > h1 {
+.main-slogan {
   top: 202px;
   margin-top: 3px;
   margin-bottom: 24px;
   margin-right: 12px;
   padding-right: 0pt;
   font-size: 1em;
+  margin: 5px -5px 28px 0;
 }
 .main-discription-wrap {
-	margin-left: 0.5px;
+  margin-left: 2px;
+  margin-bottom: 0px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
 	font-size: 18px;
 	margin-bottom: 36px;
-	
+  line-height: 72%;
+  /* line-height: 120%; */
 	text-align: center;
 
   color: #ffffff;
@@ -191,8 +194,8 @@ button:focus {
 }
 
 .main-action {
-  margin-top: 7px;
-  margin-left: 7px;
+  /* margin-top: 7px;
+  margin-left: 7px; */
 }
 
 .slogan-wrapper {
@@ -284,7 +287,7 @@ button:focus {
 	max-width: 1080px;
 	
   align-items: left;
-  margin: 0 8px 0 0;
+  margin: -1px 8px 0 2px;
 }
 
 
@@ -352,7 +355,7 @@ button:focus {
   width: 110px;
   justify-content: space-between;
   align-items: center;
-  margin: 11px 0px 13px 530px ;
+  margin: 6px -2px 18px 532px;
 }
 
 .community-pagination-p{
@@ -391,7 +394,7 @@ button:focus {
   width: 894px;
   height: 380px;
   
-  margin: 0 0 79px 2px;
+  margin: 0 0 72px 2px;
 	  /* border: 1px solid red; */
 }
 
@@ -405,7 +408,7 @@ button:focus {
   
   text-align: center;
 
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
 }
 
 .comunnity-img-wrap {
@@ -430,20 +433,20 @@ button:focus {
   letter-spacing: 2.4px;
   text-transform: uppercase;
 
-  color: yellow
+  /* color: yellow */
   /* color: #373737; */
 }
 
 .community-card-p {
   width: 300px;
 
-  margin: 0px 0 0 3px;
+  margin: 16px 0 0 4px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 144%;
-  letter-spacing: .04px;
+  letter-spacing: .03px;
   /* or 20px */
 
   display: flex;
@@ -453,12 +456,90 @@ button:focus {
   color: #4E4E4E;
 }
 
-.implemenn {
+.implement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   max-width: 1600px;
+  width: 1600px;
+  height: 842px;
+
+    border: 1px solid red;
+}
+.card-implement {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 952px;
+  margin: -20px 110px 0 0;
 }
 
-.implemenn {
-  max-width: 1600px;
+.implement-card-wrap {
+  height: 190px;
+  margin: 0 0 0 0;
+}
+
+.implement-lozung-wrap {
+  width: 300px;
+  text-align: start;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+
+  margin: 0px 0px 21px 0;
+
+  letter-spacing: .3rem;
+  text-transform: uppercase;
+
+
+}
+
+.implement-discription-p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  /* or 20px */
+
+  margin: 0 0 0 0;
+  color: #4E4E4E;
+}
+
+.implement-action-btn {
+  width: 180px;
+  margin: 31px 0 0 0;
+}
+
+.implement-btn-started-text {
+  position: static;
+  width: 86px;
+  height: 16px;
+  left: calc(50% - 86px/2);
+  top: calc(50% - 16px/2);
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .02rem;
+
+  color: #FFFFFF;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: -2px -2px;
 }
 
 .download {

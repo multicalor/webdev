@@ -561,6 +561,7 @@ button:focus {
   margin: 0px -9px 0 0;
   background-image: url("./assets/img/pexels-christina-morillo-1181675\ 1.jpg");
 }
+
 .sign-up-form-container {
   display: flex;
   flex-direction: column;
@@ -615,9 +616,19 @@ button:focus {
 
 }
 
+.sign-up-form::-moz-placeholder {
+  /* font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
 
 
-input[type="text"]::-webkit-input-placeholder { 
+  color: #373737;
+  padding: 3px 0 0 22px; */
+}
+
+.sign-up-form::-webkit-input-placeholder { 
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -629,9 +640,19 @@ input[type="text"]::-webkit-input-placeholder {
   align-items: flex-end;
 
   color: #373737;
-  margin-top: 5px;
+
  }
-input[type="text"]:-ms-input-placeholder {
+.sign-up-form:-ms-input-placeholder {
+  /* font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+
+  color: #373737;
+  padding: 3px 0 0 22px; */
+}
+.sign-up-form::-ms-input-placeholder {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -640,24 +661,14 @@ input[type="text"]:-ms-input-placeholder {
 
   color: #373737;
 }
-input[type="stext"]::-ms-input-placeholder {
+.sign-up-form::placeholder {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 140%;
 
-  color: #373737;
-}
-input[type="text"]::placeholder {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 140%;
+  color: #373737; 
 
-  color: #373737;
-  padding: 5px 0 0 0;
 } 
 
 .btn-confirm {
@@ -671,6 +682,7 @@ input[type="text"]::placeholder {
 .btn-icon-confirm {
   margin: 5px -3px 0 0;
 }
+
 /* Download */
 /* --------------- */
 
@@ -894,6 +906,7 @@ footer {
 /* Animation */
 /* ________________________________________________________________ */
 a {
+  cursor: pointer;
   text-decoration: none;
   background-image: linear-gradient(currentColor, currentColor);
   background-position: 0% 100%;
@@ -907,4 +920,12 @@ a:hover {
   background-size: 100% 2px;
   font-weight: 800;
   color: #FFFFFF
+}
+
+a:focus button:focus {
+  cursor: pointer;
+}
+
+button:focus {
+  cursor: pointer;
 }
